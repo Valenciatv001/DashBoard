@@ -19,7 +19,7 @@ AwesomeTaskTracker is a lightweight task management application that helps you s
 
 ## Usage
 
-1. Visit [http://127.0.0.1:5500/index.html](http://127.0.0.1:5500/index.html) in your web browser.
+1. Visit [https://dash-board-one.vercel.app/](https://dash-board-one.vercel.app/) in your web browser.
 2. Register or log in to your account.
 3. Start adding tasks and managing your to-do list.
 
