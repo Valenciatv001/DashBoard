@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="bottom_bar">
+        <i class="bi bi-house-door home "></i>
+        <i class="bi bi-menu-button-wide"></i>
+        <i class="bi bi-list-task"></i>
+        <i class="bi bi-person"></i>
+        <i class="bi bi-search"></i>
+
+
+      </div>
+      <div class="sidebar">
+        <div class="side_group group1">
+          <img src="./assets/logo.png" alt="Agwu Ezekiel" />
+          <i class="bi bi-search"></i>
+        </div>
+        <div class="side_group group2">
+          <i class="bi bi-house-door home"></i>
+          <i class="bi bi-menu-button-wide"></i>
+          <i class="bi bi-list-task"></i>
+          <i class="bi bi-person"></i>
+        </div>
+        <div class="side_group group3">
+          <i class="bi bi-bell"></i>
+          <i class="bi bi-arrow-down-right-square"></i>
+        </div>
+      </div>
+      <div class="profile_container">
+        <div class="profile_intro">
+          <img class="profile_img" src="./assets/ezekkk.jpg" alt="" />
+          <div class="profile_name">
+            <h2>Hi Mike,</h2>
+            <p>welcome back.</p>
+          </div>
+        </div>
+        <div class="profile_amount">
+          <h4>Today</h4>
+          <div class="profile_amount_group">
+            <h2>$19,892</h2>
+            <p class="small_para">Account Balance</p>
+          </div>
+          <div class="lower_group">
+
+          <div class="profile_amount_group">
+            <h4>$4,000</h4>
+            <p class="small_para">Year-to-Date Contributions</p>
+          </div>
+          <div class="profile_amount_group">
+            <h4>$1,892</h4>
+            <p class="small_para">Total Interest</p>
+          </div>
+        </div>
+
+          <button class="profile_btn">
+            I want to
+            <select name="" id=""></select>
+          </button>
+        </div>
+        <div class="transaction">
+          <p class="transaction_head">Recent Transactions</p>
+          <div>
+            <p class="small_para">2020-08-07</p>
+            <p class="transaction_para">Withdrawal Transfer to Bank-XXX11</p>
+          </div>
+          <hr />
+          <div>
+            <p class="small_para">2020-07-21</p>
+            <p class="transaction_para">Withdrawal Transfer to Bank-XXX11</p>
+          </div>
+          <hr />
+          <div>
+            <p class="small_para">2020-07-16</p>
+            <p class="transaction_para">Withdrawal Transfer to Bank-XXX11</p>
+          </div>
+        </div>
+      </div>
+      <div class="third_container">
+        <p class="third_container_head">Retirement Income</p>
+        <h3>Starting Year 2056</h3>
+        <div class="stats_wrapper">
+          <div class="stats">
+            <h2>$300,000</h2>
+            <p class="small_para">My Goal</p>
+            <hr class="highlighter firstHighlighter" />
+          </div>
+<div class="income_data">
+
+          <div class="stats">
+            <h2>59%</h2>
+            <p class="small_para">Goal Acheived</p>
+            <hr class="highlighter" />
+          </div>
+          <div class="stats">
+            <h2>$300</h2>
+            <p class="small_para">Est. Monthly Income</p>
+            <hr class="highlighter" />
+</div>
+
+          </div>
+        </div>
+        <div class="chart_container">
+          <h3 class="chartHeading">Contributions Overtime</h3>
+          <div class="chartData">
+            <div class="dataList">
+              <span class="colorDot1"></span>
+              <p class="small_para pclass">
+                Employer: <span class="priceBold">💲 73,500</span>
+              </p>
+            </div>
+            <div class="dataList">
+              <span class="colorDot2"></span>
+
+              <p class="small_para pclass">
+                Employee: <span class="priceBold">💲 52,500</span>
+              </p>
+            </div>
+            <div class="dataList">
+              <span class="colorDot3"></span>
+
+              <p class="small_para pclass">
+                Total Interest: <span class="priceBold">💲 244,313</span>
+              </p>
+            </div>
+          </div>
+          <canvas  id="myChart" height="210px" width="380px"> </canvas>
+        
+
+        </div>
+        <h3 class="peersHead">How do I compare to my peers?</h3>
+        <p class="small_para">
+          These numbers represent current goal acheivement
+        </p>
+        <div class="peersSection">
+          <div class="firstPeerSection">
+            <p class="peersPara">
+              Age:
+              <span class="peersSubPara">
+                Under 30
+                <select class="peersSelect" name="" id=""></select>
+              </span>
+            </p>
+            <hr class="peersHori" />
+            <p class="peersPara">
+              Salary:
+              <span class="peersSubPara">
+                💲 20 - 💲 20
+                <select class="peersSelect" name="" id=""></select>
+              </span>
+            </p>
+            <hr class="peersHori" />
+            <p class="peersPara">
+              Gender:
+              <span class="peersSubPara">
+                Male
+                <select class="peersSelect" name="" id=""></select>
+              </span>
+            </p>
+          </div>
+          <div class="roundedData">
+            <div>
+              <div
+                class="progress-bar1"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <p class="progressTitle">Average</p>
+            </div>
+            <div>
+              <div
+                class="progress-bar2"
+                role="progressbar"
+                aria-valuenow="95"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <p class="progressTitle">Top</p>
+            </div>
+            <div>
+              <div
+                class="progress-bar3"
+                role="progressbar"
+                aria-valuenow="59"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <p class="progressTitle">Me</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lastSection">
+        <div class="lastSection_firstContainer">
+          <h3>Retirement Strategy</h3>
+        
+
+          <div>
+              <p class="retirement_para">Employee Contribution</p>
+              <div class="employee_data">
+
+              <div class="progress_bar">
+            <div><span></span></div>
+          
+
+          </div>
+          <p class="employee_stat">12%</p>
+        </div>
+
+          </div>
+          <div>
+            <p class="retirement_para">Retirement Age</p>
+            <div class="employee_data">
+
+            <div class="progress_bar2 ">
+          <div><span></span></div>
+        
+
+        </div>
+        <p class="employee_stat">65</p>
+      </div>
+
+        </div>
+        <hr class="lastSection_hr">
+        <div class="employer_stat">
+          <div class="employer_data">
+            <p class="employer_para">Employer Contribution</p>
+            <p class="employer_para">8.4%</p>
+          </div>
+          <div class="employer_data">
+            <p class="employer_para">Interest Rate</p>
+            <p class="employer_para">5%</p>
+          </div>
+          <button class="UpdateBtn">Update</button>
+          <p class="viewHelp">View Help Docs ></p>
+        </div>
+
+          
+      </div>
+      <div class="last_container">
+      
+        <div>
+          
+            <p class="last_container_firstline">Are you considering a</p>
+          <p class="last_container_secondline">Housing Advance?</p>
+        </div>
+
+        
+        <p class="small_para">Limited time reduced interest</p>
+          <p class="learn_more">Learn More ></p>
+        </div>
+      
+      <div class="vrow" />
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+

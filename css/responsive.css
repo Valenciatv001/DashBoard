@@ -1,0 +1,99 @@
+@media screen and (max-width: 560px) {
+     .sidebar{
+      display: none;
+     }
+     .bottom_bar{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 60px;
+      width: 100%;
+      background: white;
+      position: fixed;
+      bottom: 0;
+      z-index: 50;
+     }
+     .main_container{
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      
+     }
+      
+.profile_amount_group h2{
+      font-size: 25px;
+}
+.profile_amount_group p{
+      font-size: 10px;
+}
+.profile_amount_group h4{
+      font-size: 15px;
+}
+      
+     
+     .profile_container{
+      background: white;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 70px;      
+      
+     }
+     .lower_group{
+      display: flex;
+      
+      gap: 10px;
+}
+.profile_btn{
+        height: 40px;
+        width: 210px;
+}
+
+.third_container{
+      margin-left: -40px;
+      width: 100vw;
+}
+.stats_wrapper{
+      display: flex;
+      flex-direction: column;
+}
+.income_data{
+      display: flex ;
+      gap: 30px;
+
+}
+.firstHighlighter{
+      width: 310px;
+}
+.chartData{
+display: flex;
+      gap: 10px;
+      justify-content: space-between;
+
+      
+}
+.pclass{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+}
+.dataList{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+}
+.peersSection{
+      display: flex;
+      flex-direction: column;
+}
+
+
+.lastSection{
+      margin-top: 200px;
+      margin-bottom: 200px;
+}
+
+
+}

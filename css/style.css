@@ -1,0 +1,494 @@
+*{ 
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+}
+.main_container{
+      display: flex;
+      
+}
+.bottom_bar{
+      display: none;
+}
+.sidebar{
+      height: 100vh;
+      width: 60px;
+      
+      display: flex ;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      
+      }
+.side_group{
+      display: flex;
+      flex-direction: column;
+      align-items: center;     
+}
+.side_group, img{
+      width: 30px;     
+}
+.side_group, i{
+      color: #b1b1b1;
+}
+.group1{
+      gap: 20px;
+      flex-grow: 0.5;
+}
+.group2{
+      gap:30px;
+      flex-grow: 3;
+      }
+.group3{
+      gap: 30px;
+      
+}
+.home{
+      background-color: #3e2edf;
+      color: white;
+      padding: 6px;
+      border-radius: 5px;
+}
+
+
+.profile_container{
+      height: 100vh;
+      width: 350px;
+      background: #fafafa;
+      
+
+}
+.profile_intro{
+      display: flex;
+      gap: 20px;
+      padding-top: 30px;
+      padding-left: 50px;
+      
+
+}
+.profile_img{
+      width: 80px;
+      height: 80px;
+      border-radius: 60px;
+      object-fit: cover;    
+}
+.profile_name{
+      padding-top: 12px;
+}
+.profile_name p{
+      font-size: 12px;
+}
+.profile_amount{
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      padding-left: 60px;
+      gap: 12px;
+      
+}
+.profile_amount_group{
+      margin-bottom: 10px;
+}
+
+.profile_amount h4 {
+      color: #6f6f6f;
+      font-size: 14px;
+      font-weight: 600;
+}
+.small_para{
+      padding-top: 2px;
+    color: #bababa;
+    font-size: 10px;  
+}
+
+.profile_amount_group h4, h2{
+      color: #353535;
+
+}
+select{
+      border: none;
+      background: #4935ff;
+      color: white;
+      
+}
+.profile_btn{
+      width: 110px;
+      height: 35px;
+      border-radius: 8px;
+      border: none;
+      background: #4935ff;
+      color: white;
+
+}
+
+.transaction{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 60px;
+      margin-top: 60px;
+}
+.transaction_head{
+      color:#444444 ;
+      font-size: 14px;
+      font-weight: 800;
+}
+.transaction_para{
+      font-size: 10px;
+      font-weight: 600;
+      padding-top: 4px;
+      color: #444444;
+}
+.transaction hr {
+      width: 180px;
+      background-color: #6f6f6f;
+       opacity: 0.1;
+} 
+
+.third_container{
+      padding-left: 100px;
+      padding-top: 40px;
+      height: 100vh;
+      width: 700px;
+
+      
+}
+.third_container_head{
+      font-size: small;
+      font-weight: bold;
+      color: #3e2edf;
+}
+.third_container h3{
+      font-weight: 600;
+      color: #444444;
+}
+.stats_wrapper{
+      display: flex;
+      gap: 40px;
+      margin-top: 30px;
+      
+}
+.income_data{
+      display: flex;
+}
+.stats{
+      display: flex;
+      flex-direction: column;
+      
+}
+.stats h2{
+      font-size: 20px;
+      color: #444444;
+}
+.highlighter{
+      width: 140px;
+      padding: 0.5px;
+      margin-top: 10px;
+      background: #4935ff;
+
+}
+.chartContainer {
+      width: 800px;
+      height: 400px;
+    }
+.chartHeading{
+      margin-top: 40px;
+      font-size: 17px;
+}    
+    .chartData{
+      display: flex;
+      gap: 20px; 
+      font-size: small;
+      padding-top: 15px;
+       }
+
+    .colorDot1{
+      width: 15px;
+      height: 10px;
+      background-color: #0800a3;
+      display: inline-block;
+      border-radius: 5px;
+    }
+    .colorDot2{
+      width: 15px;
+      height: 10px;
+      background-color: #4935ff;
+      display: inline-block;
+      border-radius: 5px;
+
+    }
+    .colorDot3{
+      width: 15px;
+      height: 10px;
+      background-color: #85afff;
+      display: inline-block;
+      border-radius: 5px;
+
+    }
+    .dataList{
+      display: flex ;
+ align-items: center;
+ gap: 10px;
+    }
+
+   .priceBold{
+      font-weight: bold;
+      color: gray;
+   } 
+   .peersHead{
+      margin-top: 25px;
+      font-size: 16px;
+      padding-bottom: 4px;
+   }
+   .peersSection{
+      display: flex;
+      gap: 20px;
+      margin-top: 30px;
+   }
+   .firstPeerSection{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+   .peersPara{
+      font-size: 10px;
+      font-weight: 600;
+   }
+   .peersSubPara{
+      font-weight: 500;
+      padding-left: 6px;
+   }
+   .peersSelect{
+      background: white;
+      color: gray;
+   }
+   .peersHori{
+      width: 160px;
+      background-color: #6f6f6f;
+       opacity: 0.1;
+   }
+
+
+.round1{
+      width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid #C0C0C0; /* Replace with your desired color for the border */
+  background-color: #ffffff;
+}
+.progress-bar1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: 
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(#2ad6ac 75%, #d3f7ee 0);    
+    }
+    
+    .progress-bar1::before {
+      content: "75%";
+    }
+    .progress-bar2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: 
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(#2ad6ac 95%, #d3f7ee 0);    
+    }
+    
+    .progress-bar2::before {
+      content: "95%";
+    }
+  
+    .progress-bar3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: 
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(#2ad6ac 59%, #d3f7ee 0);    
+    }
+    
+    .progress-bar3::before {
+      content: "59%";
+    }
+    .roundedData{
+      display: flex ;
+      gap: 20px;
+    }
+    .progressTitle{
+      text-align: center;
+      font-size: 11px;
+      margin-top: 10px;
+    }
+    .lastSection{
+      margin-left: 30px;
+      position: relative;
+      
+    }
+    .lastSection_firstContainer{
+      height: 380px;
+      width: 300px;
+      margin-top: 60px;
+      background-color: #fafafa;
+      padding-left: 40px;
+      padding-top: 10px;
+    }
+    .lastSection_firstContainer h3{
+      font-size: 16px;
+      color: #444444;
+      font-weight: 600;
+
+    }
+
+
+  .progress_bar{
+      background-color: #b1b1b1;
+      width: 165px;
+      height: 4px;
+      border-radius: 5px;
+      opacity: 0.6;
+  }  
+  .progress_bar div{
+      height: 4px;
+      border-radius: 5px;
+      width: 65%;
+      background: #4935ff;
+  }
+  .progress_bar div span {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background: whitesmoke;
+      float: right;
+      margin-top: -8px;
+      box-shadow: 5px 4px 15px  #bababa;
+}
+.progress_bar2{
+      background-color: #b1b1b1;
+      width: 165px;
+      height: 4px;
+      border-radius: 5px;
+      opacity: 0.6;
+  }  
+  .progress_bar2 div{
+      height: 4px;
+      border-radius: 5px;
+      width: 80%;
+      background: #4935ff;
+  }
+  .progress_bar2 div span {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background: whitesmoke;
+      float: right;
+      margin-top: -8px;
+      box-shadow: 5px 4px 15px  #bababa;
+}
+
+.retirement_para{
+      margin-top:10px ;
+      font-size: 13px;
+      font-weight: 600;
+      color: #444444;
+      margin-bottom: 10px;
+}
+.employee_data{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+}
+.employee_stat{
+      font-size: 13px;
+      font-weight: 600;
+      color: #444444;
+      background-color: white;
+      padding: 4px 8px;
+      
+}
+.lastSection_hr{
+      margin-top: 25px;
+      width: 220px;
+      opacity: 0.5;
+}
+.employer_stat{
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 20px;
+      
+}
+.employer_data{
+      display: flex;
+      justify-content: space-between;
+      margin-right: 30px;
+      
+      
+}
+.employer_para{
+      font-size: 13px;
+      font-weight: 600;
+      color: #444444;
+}
+.UpdateBtn{
+      width: 230px;
+      height: 43px;
+      background:#4935ff;
+      border: none;
+      color: white;
+      border-radius: 10px;
+}
+.viewHelp{
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+      color:#3e2edf
+}
+.last_container{
+   margin-left: 40px;
+   margin-top:30px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+
+}
+.vrow{
+      height: 95px;
+      width: 2px;
+      background-color: #3e2edf;
+      position: absolute;
+      top: 470px;
+}
+.last_container_firstline{
+      font-size: 15px;
+      font-weight: 500;
+      color: #6f6f6f;
+}
+.last_container_secondline{
+      font-size: 15px;
+      font-weight: bold;
+      color: #353535;
+}
+.learn_more{
+      font-size: 11px;
+      font-weight: 700;
+      color: #3e2edf;
+}
+
+
+
