@@ -491,4 +491,23 @@ select{
 }
 
 
+/* Dark Mode */
+
+.dark-mode  {
+      background-color: black; 
+      color:#ffffff ;
+}
+
+.dark-mode i {
+      /* background-color: #0000ff; */
+      color: #ffffff;
+}
+
+
+
+
+
+
+
+
 

@@ -78,3 +78,20 @@ const config = {
 
 const ctx = document.getElementById("myChart").getContext("2d");
 new Chart(ctx, config);
+
+
+
+
+// Dark Mode
+
+const toggleButton = document.getElementById('dark-mode-toggle');
+const body = document.body;
+
+toggleButton.addEventListener('click', function() {
+  body.classList.toggle('dark-mode')
+})
+
+
+
+
+
